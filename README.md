@@ -1,6 +1,5 @@
 # Midas
 
-> [!QUOTE]
 > Astonished at the novelty of his misfortune, being both rich and wretched,
 > he wishes to escape from his wealth
 
