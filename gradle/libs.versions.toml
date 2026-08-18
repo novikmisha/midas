@@ -1,0 +1,20 @@
+[versions]
+jvm = "25"
+kotlin = "2.4.0"
+spring-boot = "4.1.0"
+
+
+[libraries]
+# plugins
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-spring = { module = "org.jetbrains.kotlin.plugin.spring:org.jetbrains.kotlin.plugin.spring.gradle.plugin", version.ref = "kotlin" }
+spring-gradle = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "spring-boot" }
+
+# bom
+spring-bom = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }
+
+# spring
+spring-starter = { module = "org.springframework.boot:spring-boot-starter" }
+
+# testing
+spring-test-starter = { module = "org.springframework.boot:spring-boot-starter" }
